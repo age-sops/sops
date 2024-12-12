@@ -1,6 +1,7 @@
 module github.com/getsops/sops/v3
 
 go 1.22
+
 toolchain go1.22.9
 
 require (
@@ -147,3 +148,5 @@ require (
 	google.golang.org/grpc/stats/opentelemetry v0.0.0-20240907200651-3ffb98b2c93a // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
+
+replace filippo.io/age => github.com/age-sops/age v1.90.0
